@@ -8,14 +8,13 @@ using namespace std;
 
 int main(void) {
 
-    int i;
+    int j = 5;
+    int i = 2;
 
-    const int& j = i;
+    double slope = j / i;
 
-    i = 8;
+    cout << slope << endl;
 
-    cout << j << endl;
- 
     system("pause>null");
     return 0;
 }
