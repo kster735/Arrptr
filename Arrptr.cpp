@@ -6,16 +6,12 @@ using namespace std;
 
 
 int main(void){
-    bool t = true;
-    bool f = false;
+    int x=9, y=10, z=2;
 
-    cout << sizeof t << endl;
+    int w = x * y + z;
 
-    /// <summary>
-    /// A new commit after 655ad480
-    /// </summary>
-    /// <param name=""></param>
-    /// <returns></returns>
+    cout << w << endl;
+
 
     system("pause>null");
     return 0;
