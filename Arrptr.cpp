@@ -16,8 +16,10 @@ int main(void){
     int w = x * y + z;*/
 
     int i = 0;
-    cout << i << ++i << endl;
+    cout << i << " " << i++ << endl;
 
+    int x = (b < 0) ? 1 : 0;
+    cout << x << endl;
 
     system("pause>null");
     return 0;
