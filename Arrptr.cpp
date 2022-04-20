@@ -1,17 +1,28 @@
 #include <iostream>
 #include <vector>
+#include <bitset>
 
 using namespace std;
 
 
 
-int main(void){
-   
-    int n = 16;
+int main(void) {
 
-    int m  = n << 2;
+    unsigned long quiz1 = 0;
 
-    cout << m << endl;
+    quiz1 |= (1UL << 5);
+
+    //quiz1 &= ~(1UL << 27);
+
+    
+
+    cout << bitset<32> {quiz1} << endl;
+
+
+    bool status = quiz1 & (1UL << 27);
+
+    cout << boolalpha;
+    cout << status << endl;
 
     system("pause>null");
     return 0;
