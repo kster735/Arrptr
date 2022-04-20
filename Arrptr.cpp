@@ -6,9 +6,12 @@ using namespace std;
 
 
 int main(void){
-    short n = INT16_MAX;
+   
+    int n = 16;
 
-    cout << n << endl;
+    int m  = n << 2;
+
+    cout << m << endl;
 
     system("pause>null");
     return 0;
