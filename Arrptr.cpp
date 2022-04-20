@@ -6,11 +6,17 @@ using namespace std;
 
 
 int main(void){
-    int x=9, y=10, z=2;
+    vector<int> vec{ 90,2,3,4 };
 
-    int w = x * y + z;
+    auto b = * (vec.begin() + 3);
 
-    cout << w << endl;
+
+    /*int x=9, y=10, z=2;
+
+    int w = x * y + z;*/
+
+    int i = 0;
+    cout << i << ++i << endl;
 
 
     system("pause>null");
