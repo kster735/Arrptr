@@ -8,22 +8,14 @@ using namespace std;
 
 int main(void) {
 
-    unsigned long quiz1 = 0;
+    int i;
 
-    quiz1 |= (1UL << 5);
+    const int& j = i;
 
-    //quiz1 &= ~(1UL << 27);
+    i = 8;
 
-    
-
-    cout << bitset<32> {quiz1} << endl;
-
-
-    bool status = quiz1 & (1UL << 27);
-
-    cout << boolalpha;
-    cout << status << endl;
-
+    cout << j << endl;
+ 
     system("pause>null");
     return 0;
 }
